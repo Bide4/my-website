@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>My Services</title>
     <link rel="stylesheet" href="style.css">
@@ -7,43 +8,93 @@
 
 <body>
 
+    <!-- Navigation -->
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
+        <button id="menuButton">☰</button>
+
+        <div id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
 
-    <h1>My Services</h1>
 
-    <p>These are some of the services I am learning to provide:</p>
+    <!-- Services Section -->
+    <section class="services-page">
 
-    <<div class="services">
+        <h1>My Services</h1>
 
-    <div class="card">
-        <h2>Web Development</h2>
-        <p>
-            I build simple and responsive websites using
-            HTML, CSS and JavaScript.
+        <p class="services-intro">
+            I'm developing my skills in web development and design,
+            and I'm working toward providing useful digital solutions
+            for individuals and businesses.
         </p>
-    </div>
 
-    <div class="card">
-        <h2>Website Design</h2>
-        <p>
-            I create clean and attractive designs that
-            work well on phones and computers.
-        </p>
-    </div>
 
-    <div class="card">
-        <h2>Website Maintenance</h2>
-        <p>
-            I can update website content and make
-            improvements when needed.
-        </p>
-    </div>
+        <div class="services-container">
 
-</div>
+
+            <!-- Web Development -->
+            <div class="service-card">
+
+                <h2>Web Development</h2>
+
+                <p>
+                    I build simple, responsive websites using
+                    HTML, CSS and JavaScript.
+                </p>
+
+            </div>
+
+
+            <!-- Website Design -->
+            <div class="service-card">
+
+                <h2>Website Design</h2>
+
+                <p>
+                    I create clean and user-friendly website designs
+                    that work well on phones, tablets and computers.
+                </p>
+
+            </div>
+
+
+            <!-- Website Maintenance -->
+            <div class="service-card">
+
+                <h2>Website Maintenance</h2>
+
+                <p>
+                    I can help update website content, make improvements
+                    and keep websites organized as they grow.
+                </p>
+
+            </div>
+
+
+            <!-- Landing Pages -->
+            <div class="service-card">
+
+                <h2>Landing Pages</h2>
+
+                <p>
+                    I can create simple landing pages designed to
+                    present a product, service or business online.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
