@@ -8,7 +8,6 @@
 
 <body>
 
-    <!-- Navigation -->
     <nav>
         <button id="menuButton">☰</button>
 
@@ -21,7 +20,6 @@
     </nav>
 
 
-    <!-- Contact Section -->
     <section class="contact-section">
 
         <h1>Contact Me</h1>
@@ -35,7 +33,6 @@
 
         <div class="contact-container">
 
-            <!-- Contact Information -->
             <div class="contact-info">
 
                 <h2>Get In Touch</h2>
@@ -61,18 +58,18 @@
             </div>
 
 
-            <!-- Contact Form -->
             <div class="contact-form">
 
                 <h2>Send Me a Message</h2>
 
-                <form id="contactForm">
+                <form action="https://formspree.io/f/mbgrdyqr" method="POST">
 
                     <label for="name">Your Name</label>
 
                     <input
                         type="text"
                         id="name"
+                        name="name"
                         placeholder="Enter your name"
                         required
                     >
@@ -83,6 +80,7 @@
                     <input
                         type="email"
                         id="email"
+                        name="email"
                         placeholder="Enter your email"
                         required
                     >
@@ -92,6 +90,7 @@
 
                     <textarea
                         id="message"
+                        name="message"
                         rows="6"
                         placeholder="Write your message"
                         required
@@ -103,8 +102,6 @@
                     </button>
 
                 </form>
-
-                <p id="successMessage"></p>
 
             </div>
 
