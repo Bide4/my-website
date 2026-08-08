@@ -309,4 +309,76 @@ nav a:hover {
         font-size: 23px;
     }
 
-        }
+        }/* Services Page */
+
+.services-page {
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-page h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.services-intro {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.service-card h2 {
+    color: #111b8f;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* Services Mobile */
+
+@media (max-width: 600px) {
+
+    .services-page {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    .services-page h1 {
+        font-size: 34px;
+    }
+
+    .services-intro {
+        font-size: 16px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 22px;
+    }
+
+}
