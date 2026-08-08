@@ -381,4 +381,24 @@ nav a:hover {
         padding: 22px;
     }
 
+}/* Mobile Navigation */
+
+@media (max-width: 600px) {
+
+    #navLinks {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+    }
+
+    #navLinks.show {
+        display: flex;
+    }
+
+    #menuButton {
+        display: block;
+    }
+
 }
