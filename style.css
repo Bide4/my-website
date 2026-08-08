@@ -748,4 +748,96 @@ nav a {
         padding: 22px;
     }
 
+    }/* Homepage Extra Sections */
+
+.about-preview {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 40px 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.about-preview h2 {
+    color: #111b8f;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about-preview p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.about-preview a {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #111b8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+.home-contact {
+    margin: 70px 20px;
+    padding: 60px 25px;
+    text-align: center;
+    background-color: #e9ebff;
+    border-radius: 12px;
+}
+
+.home-contact h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.home-contact p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.home-contact a {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #111b8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .about-preview {
+        margin: 45px 15px;
+        padding: 30px 20px;
     }
+
+    .about-preview h2 {
+        font-size: 25px;
+    }
+
+    .about-preview p {
+        font-size: 16px;
+    }
+
+    .home-contact {
+        margin: 45px 15px;
+        padding: 45px 20px;
+    }
+
+    .home-contact h2 {
+        font-size: 27px;
+    }
+
+        }
