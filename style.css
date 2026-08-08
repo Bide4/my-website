@@ -401,4 +401,25 @@ nav a:hover {
         display: block;
     }
 
+}/* Final Mobile Navigation Fix */
+
+@media (max-width: 600px) {
+
+    #navLinks {
+        display: none !important;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+    }
+
+    #navLinks.show {
+        display: flex !important;
+    }
+
+    #menuButton {
+        display: block;
+        cursor: pointer;
+    }
+
 }
