@@ -840,4 +840,55 @@ nav a {
         font-size: 27px;
     }
 
-        }
+        }/* Improved Project Cards */
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card p {
+    line-height: 1.7;
+}
+
+.project-card strong {
+    color: #111b8f;
+}
+
+.project-card a {
+    transition: opacity 0.3s ease;
+}
+
+.project-card a:hover {
+    opacity: 0.8;
+}
+
+
+/* Better layout for three projects */
+
+@media (min-width: 601px) {
+
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* Mobile project cards */
+
+@media (max-width: 600px) {
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        padding: 25px;
+    }
+
+}
